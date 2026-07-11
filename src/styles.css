@@ -445,3 +445,30 @@ h2 {
     padding: 72px 0 56px;
   }
 }
+
+/* Standalone pages */
+.home-intro {
+  padding: 72px 0 96px;
+}
+
+.page-first {
+  padding-top: 72px;
+}
+
+.services.page-first {
+  padding-bottom: 96px;
+}
+
+.product.page-first {
+  padding-bottom: 96px;
+}
+
+.about.page-first {
+  padding: 72px 0 110px;
+  min-height: 46vh;
+}
+
+.contact.page-first {
+  padding: 72px 0 110px;
+  min-height: 46vh;
+}
