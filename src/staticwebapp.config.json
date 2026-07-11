@@ -1,0 +1,13 @@
+{
+  "trailingSlash": "auto",
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+  },
+  "responseOverrides": {
+    "404": { "rewrite": "/index.html", "statusCode": 200 }
+  }
+}
