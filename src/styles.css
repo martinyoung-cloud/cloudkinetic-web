@@ -472,3 +472,7 @@ h2 {
   padding: 72px 0 110px;
   min-height: 46vh;
 }
+
+.about p + p {
+  margin-top: 18px;
+}
